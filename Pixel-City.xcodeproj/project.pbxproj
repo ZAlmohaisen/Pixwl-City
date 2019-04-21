@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		7782FDCA226C97F400254C38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7782FDC9226C97F400254C38 /* AppDelegate.swift */; };
-		7782FDCC226C97F400254C38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7782FDCB226C97F400254C38 /* ViewController.swift */; };
+		7782FDCC226C97F400254C38 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7782FDCB226C97F400254C38 /* MapVC.swift */; };
 		7782FDCF226C97F400254C38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7782FDCD226C97F400254C38 /* Main.storyboard */; };
 		7782FDD1226C97F500254C38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7782FDD0226C97F500254C38 /* Assets.xcassets */; };
 		7782FDD4226C97F500254C38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7782FDD2226C97F500254C38 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7782FDC6226C97F400254C38 /* Pixwl-City.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pixwl-City.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7782FDC6226C97F400254C38 /* Pixel-City.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pixel-City.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7782FDC9226C97F400254C38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7782FDCB226C97F400254C38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7782FDCB226C97F400254C38 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		7782FDCE226C97F400254C38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7782FDD0226C97F500254C38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7782FDD3226C97F500254C38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		7782FDBD226C97F400254C38 = {
 			isa = PBXGroup;
 			children = (
-				7782FDC8226C97F400254C38 /* Pixwl-City */,
+				7782FDC8226C97F400254C38 /* Pixel-City */,
 				7782FDC7226C97F400254C38 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +46,62 @@
 		7782FDC7226C97F400254C38 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7782FDC6226C97F400254C38 /* Pixwl-City.app */,
+				7782FDC6226C97F400254C38 /* Pixel-City.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7782FDC8226C97F400254C38 /* Pixwl-City */ = {
+		7782FDC8226C97F400254C38 /* Pixel-City */ = {
 			isa = PBXGroup;
 			children = (
+				7782FDDE226C988100254C38 /* Utlities */,
+				7782FDDD226C987700254C38 /* Extension */,
+				7782FDDC226C986500254C38 /* View */,
+				7782FDDB226C983300254C38 /* Controller */,
 				7782FDC9226C97F400254C38 /* AppDelegate.swift */,
-				7782FDCB226C97F400254C38 /* ViewController.swift */,
 				7782FDCD226C97F400254C38 /* Main.storyboard */,
 				7782FDD0226C97F500254C38 /* Assets.xcassets */,
 				7782FDD2226C97F500254C38 /* LaunchScreen.storyboard */,
 				7782FDD5226C97F500254C38 /* Info.plist */,
 			);
-			path = "Pixwl-City";
+			path = "Pixel-City";
+			sourceTree = "<group>";
+		};
+		7782FDDB226C983300254C38 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7782FDCB226C97F400254C38 /* MapVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7782FDDC226C986500254C38 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7782FDDD226C987700254C38 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		7782FDDE226C988100254C38 /* Utlities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utlities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7782FDC5226C97F400254C38 /* Pixwl-City */ = {
+		7782FDC5226C97F400254C38 /* Pixel-City */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7782FDD8226C97F500254C38 /* Build configuration list for PBXNativeTarget "Pixwl-City" */;
+			buildConfigurationList = 7782FDD8226C97F500254C38 /* Build configuration list for PBXNativeTarget "Pixel-City" */;
 			buildPhases = (
 				7782FDC2226C97F400254C38 /* Sources */,
 				7782FDC3226C97F400254C38 /* Frameworks */,
@@ -79,9 +111,9 @@
 			);
 			dependencies = (
 			);
-			name = "Pixwl-City";
+			name = "Pixel-City";
 			productName = "Pixwl-City";
-			productReference = 7782FDC6226C97F400254C38 /* Pixwl-City.app */;
+			productReference = 7782FDC6226C97F400254C38 /* Pixel-City.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +131,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7782FDC1226C97F400254C38 /* Build configuration list for PBXProject "Pixwl-City" */;
+			buildConfigurationList = 7782FDC1226C97F400254C38 /* Build configuration list for PBXProject "Pixel-City" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +144,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7782FDC5226C97F400254C38 /* Pixwl-City */,
+				7782FDC5226C97F400254C38 /* Pixel-City */,
 			);
 		};
 /* End PBXProject section */
@@ -135,7 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7782FDCC226C97F400254C38 /* ViewController.swift in Sources */,
+				7782FDCC226C97F400254C38 /* MapVC.swift in Sources */,
 				7782FDCA226C97F400254C38 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,7 +349,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7782FDC1226C97F400254C38 /* Build configuration list for PBXProject "Pixwl-City" */ = {
+		7782FDC1226C97F400254C38 /* Build configuration list for PBXProject "Pixel-City" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7782FDD6226C97F500254C38 /* Debug */,
@@ -326,7 +358,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7782FDD8226C97F500254C38 /* Build configuration list for PBXNativeTarget "Pixwl-City" */ = {
+		7782FDD8226C97F500254C38 /* Build configuration list for PBXNativeTarget "Pixel-City" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7782FDD9226C97F500254C38 /* Debug */,
